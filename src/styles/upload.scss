@@ -47,3 +47,13 @@
   height: 20px;
   font-size: 0.8rem;
 }
+
+.dropArea {
+  height: 62px;
+  margin: 30px auto 10px auto;
+  outline: 2px dashed var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
