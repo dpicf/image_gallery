@@ -14,10 +14,8 @@ const useFirestore = (collection) => {
                 });
                 setDocs(documents);
             });
-
         return () => unsub();
     }, [collection]);
-
     return {docs};
 }
 
